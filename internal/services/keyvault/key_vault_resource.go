@@ -2,7 +2,7 @@ package keyvault
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"strings"
 	"time"
