@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sync"
 
 	"github.com/Azure/azure-sdk-for-go/profiles/2020-09-01/storage/mgmt/storage"

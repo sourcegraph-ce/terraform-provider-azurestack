@@ -3,7 +3,7 @@ package tf5server
 import (
 	"context"
 	"errors"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"regexp"
 	"strings"
 	"sync"

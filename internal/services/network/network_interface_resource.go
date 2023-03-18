@@ -2,7 +2,7 @@ package network
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/profiles/2020-09-01/network/mgmt/network"

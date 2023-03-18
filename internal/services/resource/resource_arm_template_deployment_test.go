@@ -3,7 +3,7 @@ package resource_test
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"regexp"
 	"strconv"
 	"testing"
