@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"flag"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 	"github.com/hashicorp/terraform-provider-azurestack/internal/provider"

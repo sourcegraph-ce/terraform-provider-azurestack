@@ -1,7 +1,7 @@
 package sender
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"net/http/httputil"
 

@@ -3,7 +3,7 @@ package compute
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/Azure/azure-sdk-for-go/profiles/2020-09-01/compute/mgmt/compute"

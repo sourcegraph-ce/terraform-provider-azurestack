@@ -1,7 +1,7 @@
 package locks
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sync"
 )
 

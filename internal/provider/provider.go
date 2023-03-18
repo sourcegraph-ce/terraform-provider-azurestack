@@ -3,7 +3,7 @@ package provider
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/url"
 	"os"
 	"strings"
