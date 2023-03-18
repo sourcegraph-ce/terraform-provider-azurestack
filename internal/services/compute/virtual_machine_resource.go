@@ -6,7 +6,7 @@ import (
 	"crypto/sha1" // nolint:gosec
 	"encoding/hex"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 	"time"
 

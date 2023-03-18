@@ -3,7 +3,7 @@ package migration
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-provider-azurestack/internal/clients"
 	"github.com/hashicorp/terraform-provider-azurestack/internal/services/dns/parse"
